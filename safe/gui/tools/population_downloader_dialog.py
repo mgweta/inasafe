@@ -413,7 +413,7 @@ class PopulationDownloaderDialog(QDialog, FORM_CLASS):
         """
 
         path = '%s.geojson' % base_path
-        
+
     def reject(self):
         """Redefinition of the reject() method
         to remove the rectangle selection tool.

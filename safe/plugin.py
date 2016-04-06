@@ -320,7 +320,7 @@ class Plugin(object):
 
     def _create_population_downloader_action(self):
         """Create action for import population Dialog."""
-        icon = resources_path('img', 'icons', 'show-population-download.svg')
+        icon = resources_path('img', 'icons', 'show-population-download.png')
         self.action_import_dialog = QAction(
             QIcon(icon),
             self.tr('Population Downloader'),
